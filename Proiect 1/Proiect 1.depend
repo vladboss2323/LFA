@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1582212489 source:c:\facultate\limbaje formale si automate\proiect 1\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+
+1583860799 source:c:\facultate\anul 1 semestrul 2\limbaje formale si automate\proiect 1\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+	<bits/stdc++.h>
+
