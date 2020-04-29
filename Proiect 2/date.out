@@ -1,0 +1,45 @@
+6 Numarul de stari(noduri)
+0 1 cu litera a 2 cu litera b 
+1 0 cu litera a 3 cu litera b 
+2 4 cu litera a 5 cu litera b 
+3 4 cu litera a 5 cu litera b 
+4 4 cu litera a 5 cu litera b 
+5 5 cu litera a 5 cu litera b 
+Starea initiala: 0
+Starile finale: 
+2 3 4 
+6 Numarul de stari(noduri)
+0 1 cu litera a 2 cu litera b 
+1 0 cu litera a 3 cu litera b 
+2 4 cu litera a 5 cu litera b 
+3 4 cu litera a 5 cu litera b 
+4 4 cu litera a 5 cu litera b 
+5 5 cu litera a 5 cu litera b 
+Starea initiala: 0
+Starile finale: 
+2 3 4 
+6 Numarul de stari(noduri)
+0 1 cu litera a 2 cu litera b 
+1 0 cu litera a 3 cu litera b 
+2 4 cu litera a 5 cu litera b 
+3 4 cu litera a 5 cu litera b 
+4 4 cu litera a 5 cu litera b 
+5 5 cu litera a 5 cu litera b 
+Starea initiala: 0
+Starile finale: 
+2 3 4 
+5 Numarul de stari(noduri)
+0 1 cu litera a 2 cu litera b 
+1 0 cu litera a 3 cu litera b 
+2 4 cu litera a 
+3 4 cu litera a 
+4 4 cu litera a 
+Starea initiala: 0
+Starile finale: 
+2 3 4 
+2 Numarul de stari(noduri)
+0 0 cu litera a 1 cu litera b 
+1 1 cu litera a 
+Starea initiala: 1
+Starile finale: 
+1 

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1588202185 source:c:\facultate\anul 1 semestrul 2\limbaje formale si automate\proiect 2\nfadfa.cpp
+	"NFADFA.h"
+	<bits/stdc++.h>
+
+1588104865 c:\facultate\anul 1 semestrul 2\limbaje formale si automate\proiect 2\nfadfa.h
+	<bits/stdc++.h>
+
+1588105184 source:c:\facultate\anul 1 semestrul 2\limbaje formale si automate\proiect 2\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<NFADFA.h>
+

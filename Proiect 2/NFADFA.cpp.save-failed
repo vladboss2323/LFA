@@ -1,0 +1,55 @@
+#include "NFADFA.h"
+#include <bits/stdc++.h>
+
+using namespace std;
+
+ifstream in("date.in");
+ofstream out("date.out");
+
+#define lamda '~'
+
+void NFA-DFA :: citire()
+{
+    int i,qfin;
+    int x,y;
+    char c,cuv[1000];
+    in>>n>>m>>t;
+    in>>q0;
+    for(i=1; i<=t; i++)
+    {
+        in>>qfin;
+        qf[qfin]=true;
+    }
+    for(i = 1 ; i <= m; i++)
+    {
+        in>>x>>y>>c;
+        a[x].push_back(make_pair(y,c));
+    }
+}
+
+void NFA-DFA :: eliminare_lamda(int nod1,int nod2,int pozitie)
+{
+    for(size_t i = pozitie ; i < a[nod1].size() ; i++)
+        a[nod1][i] = a[nod1][i+1];
+    a[nod1].pop_back();
+    for(size_t i = 0 ; i < a[nod2].size() ; i++)
+        a[nod1].push_back(a[nod2][i]);
+    if(qfin[nod1] == true)
+        qfin[nod2] = true;
+    if(qfin[nod2] == true)
+        qfin[nod1] = true;
+}
+
+void NFA-DFA :: eliminare_lamdauri()
+{
+    for(int i = 0 ; i < n ; i++)
+    {
+        for(size_t j = 0 ; j < a[i].size() ; j++)
+        {
+            if(a[i][j].second == lamda)
+            {
+                eliminare_lamda(i,a[i][j].second,j)
+            }
+        }
+    }
+}
